@@ -1,0 +1,45 @@
+[
+  {
+    "id": "basic_membership",
+    "name": "Basic Membership",
+    "price": 30.99,
+    "features": [
+      "Access to gym facilities during regular hours",
+      "Use of cardio and weight training equipment",
+      "Locker room access"
+    ]
+  },
+  {
+    "id": "premium_membership",
+    "name": "Premium Membership",
+    "price": 49.99,
+    "features": [
+      "Access to gym facilities 24/7",
+      "Unlimited group fitness classes",
+      "Personalized fitness assessment",
+      "Access to sauna and steam room",
+      "Free towel service"
+    ]
+  },
+  {
+    "id": "family_membership",
+    "name": "Family Membership",
+    "price": 79.99,
+    "features": [
+      "Access for 2 adults and 2 children",
+      "Use of all gym facilities and classes",
+      "Childcare services available",
+      "Discounts on personal training sessions"
+    ]
+  },
+  {
+    "id": "student_membership",
+    "name": "Student Membership",
+    "price": 24.99,
+    "features": [
+      "Access to gym facilities during off-peak hours",
+      "Discounted rate for students with valid ID",
+      "Use of cardio and weight training equipment"
+    ]
+  }
+]

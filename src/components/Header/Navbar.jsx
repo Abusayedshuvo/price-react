@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container mx-auto mt-5 ">
         <div className="text-2xl md:hidden" onClick={() => setOpen(!open)}>
           {open === true ? <RiMenu2Fill /> : <RiCloseFill />}
         </div>
