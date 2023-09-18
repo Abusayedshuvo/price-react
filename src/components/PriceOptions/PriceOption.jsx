@@ -5,8 +5,8 @@ const PriceOption = ({ option }) => {
   const { name, price, features } = option;
   return (
     <div className="bg-slate-200 p-6 rounded-lg flex flex-col">
-      <h1 className="text-3xl">{name}</h1>
-      <h3 className="text-2xl mb-5"> {price} </h3>
+      <h3 className="text-2xl">$ {price} </h3>
+      <h1 className="text-3xl my-5">{name}</h1>
       <div className="flex-grow">
         {features.map((feature, id) => (
           <p className="text-sm" key={id}>
